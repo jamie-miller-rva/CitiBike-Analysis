@@ -99,7 +99,8 @@ CREATE VIEW all_data AS (
     INNER JOIN stations es ON t.end_station_id = es.id
 	LEFT OUTER JOIN dates d ON t.start_date = d.date
 	LEFT OUTER JOIN weather w ON t.start_date = w.date
-  ORDER BY t.start_timestamp	
+WHERE d.year = 2019  
+ORDER BY t.start_timestamp	
 );
 
 --// other queries
