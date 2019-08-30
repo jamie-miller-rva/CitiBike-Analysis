@@ -12,6 +12,10 @@ CREATE TABLE trips_raw (
   end_station_name text,
   end_station_latitude numeric,
   end_station_longitude numeric,
+  bike_id integer,
+  user_type text,
+  birth_year text,
+  gender text
 );  
 	
 CREATE TABLE trips (
