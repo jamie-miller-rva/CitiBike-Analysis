@@ -50,15 +50,11 @@
                                     
 
                                 <li class="nav-item">
+                                    <a class="nav-link" href="usage.html">Overall Usage</a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="riderprofile.html">Rider Profile</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="usage.html">Usage</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="weather.html">Weather</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -90,32 +86,89 @@
         <!---------------------------------------------------------------------------------------------------------------------->
         <!-- The div that holds our map -->
         
-        <h1 class="title">Citi Bike Expansion</h1>
+        <h1 class="title">Process Documentation</h1>
         <!-- Added little bicycle using fontawesome-->
-        <h2>january 1, 2017 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
-
-        <h4 id="statements"> Process Documentation </h4>
-
-        <p id="statements">Placeholder...
+        <h4 id="statements">Overview</h4> 
+        <p id="statements"> Since we are working with transaction data, we created a Postgres Database in Heroku. 
+            This allowed us to share the database without needing to recreate a Postgres database on individual computers</p>
+        <p id="statements">
+            Our visualization is Flask-powered and we've used a combination of Leaflet, Plotly, <a href="https://fontawesome.com/">Font Awesome</a>,
+            <a href="https://python-visualization.github.io/folium/">Folium</a> and <a href="http://dimplejs.org/">DimpleJS</a> (new JavaScript libraries)
         </p>
 
-            <img id="graphs" src="img/avg_duration_weekday.png" width="700">
 
-        <p id="statements"> Placeholder...  
-        </p>
+        <h4 id="statements"> Related Work </h4>
 
-        <p id="statements">Placeholder...</p>
+            <li id="statements">
+                    <a href="https://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">
+                        A Tale of Twenty-Two Million Citi Bike Rides: Analyzing the NYC Bike Share System</a> by Todd W. Schneider.
+            </li>
+            <li id="statements">
+                    <a href="https://evanwangxx.github.io/Citi-Bike-Usage-in-NYC/index.html">Citi Bike Usage in NYC</a> by Evan Wang
+            </li>
+            <li id="statements">
+                <a href="https://github.com/karmacelina/citi_bike/blob/master/citibike_2015_EDA_modeling.ipynb">Analysis of 2015 CitiBike data</a>
+                    by Laura Colon-Melendez
+            </li>
 
-        <img id="graphs" src="img/tripduration.png" width="700">
+            <li id="statements">
+                    <a href="https://github.com/lweislo/Tableau-Citibike">Tableau-Citibike</a>
+                        by L Weislo
+                </li>
+                
 
-        <p id="statements">Placeholder...</p>
+            <li id="statements">
+                    <a href="https://github.com/lorenaparralanda/Citibike-Stations/blob/master/M1.%20Citibike%20trip%20data%20(SQL)%20.ipynb">Citibike-Stations</a>
+                        by Lorena De La Parra Landa
+                </li>
+        <p></p>
+        <h4 id="statements"> Learning Points </h4>
+            <li id="statements">
+                Working with <a href=""https://devcenter.heroku.com/articles/heroku-postgresql">Heroku Postgres</a> allowed us to share the database without saving an instance of the database on each
+                group member's computer.
+
+            </li>
+
+            <li id="statements">Working with Github was a bit frustrating, especially when it didn't allow us to commit our changes</li>
+
+            <li id="statements">
+                    The Citi Bike project allowed us to review other people's work and also allowed us to improve our techniques. 
+                    In an article published by <a href="https://www.freecodecamp.org/news/the-secret-to-unlimited-project-ideas/">Freecodecamp.org</a>, 
+                    they suggest to 
+                    <p></p>
+                    <h5>Copy-until you can create</h5>
+                        <blockquote>
+                            Good artists copy; great artists steal. - Pablo Picasso
+                        </blockquote>
+                        <h5>Original = Coding Last</h5>
+                            
+                            <p> but..... </p>
+
+                        <h5>Copying = Coding First</h5>
+    
+            </li>
+
+            <p></p>
+
+            <h4 id="statements"> Follow Ups </h4>
+            <li id="statements">
+                Work with Weather, Time Stamp, and Gender Data to produce a trips by hour graph, similar to <a href="https://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/"> Todd Schneider </a>
+            </li>
+
+            <img id="graphs" src="img/trips_by_hour.png" width="500">
+
+            <img id="graphs" src="img/gender_uniquely_identifiable.png" width="500">
+
+            <img id="graphs" src="img/daily_weekday_trips_vs_temperature.png" width="500">
+
+            <img id="graphs" src="img/most_popular_bike_routes.png" width="500">
+
+            <li id="statements">
+                Incorporate Tableau for visualizations, similar to <a href="https://github.com/lweislo/Tableau-Citibike/blob/master/CitiBike%20Overview.pdf">L Weislo</a>
+            </li>
+
+        <img id="graphs" src="img/skyline.JPG" width="1100">
         
-        <img id="graphs" src="img/trip_month_subscribers.png" width="700">
-        
-        <img id="graphs" src="img/trip_month_customers.png" width="700">
-        
-        <p id="statements">Placeholder...
-        </p>
         
         <!-- D3 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
@@ -143,8 +196,9 @@
         <!--Footer-->
         <footer>
                 <div class="container"></div>
-                <div class="footer"> Citi Bike Analysis - New York, New York <i class="fas fa-biking"></i> 
-                </div>
+                <div class="footer"> Citi Bike Analysis - Jersey City, New Jersey <i class="fas fa-biking"></i> 
+                    <a href="https://github.com/danicacodes/Citi_Bike_Project"><i class="fab fa-github"></i></a>
+                </div>            
                 <a style="color: white; font-size: 10px" href="https://spcs.richmond.edu/noncredit/programs/data-analytics/" data-toggle="popover" title="UR Data Analytics" data-content="University of Richmond Data Analytics Bootcamp">UR Data Analytics Bootcamp</a>
             </footer>
     </body>

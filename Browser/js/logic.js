@@ -32,8 +32,8 @@ function initMap() {
     // bikeLayer.setMap(googlemap);
     // Create the map with our layers
     var map = L.map('map-id', {
-        center: [40.758, -73.9855],
-        zoom: 14,
+        center: [40.7178, -74.0431],
+        zoom: 13.5,
         layers: [layers.COMING_SOON, layers.EMPTY, layers.LOW, layers.NORMAL, layers.OUT_OF_ORDER]
     });
     // Add our 'lightmap' tile layer to the map

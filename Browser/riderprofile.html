@@ -49,15 +49,11 @@
                             <ul class="navbar-nav ml-auto">
                                     
                                 <li class="nav-item">
+                                    <a class="nav-link" href="usage.html">Overall Usage</a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="riderprofile.html">Rider Profile</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="usage.html">Usage</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="weather.html">Weather</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -89,37 +85,92 @@
         <!---------------------------------------------------------------------------------------------------------------------->
         <!-- The div that holds our map -->
         
-        <h1 class="title">Citi Bike Usage in New York City</h1>
+        <h1 class="title">Citi Bike in Jersey City, NJ</h1>
         <!-- Added little bicycle using fontawesome-->
-        <h2>january 1, 2017 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
+        <h2> july 1, 2019 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
 
-        <h4 id="statements">Daily usage varies by day of week, customer type, and time </h4>
+        <h4 id="statements">Profile of Jersey City Citi Bike Rider </h4>
 
-        <p id="statements">For example, most usage during the weekdays is by subscribers and 
-            there is a slight uptick on Saturdays and Sundays for Daily Customers.
-            More than likely, a subscriber's profile is a daily commuter with a bike ride of 10 minutes
-            or less
+        <p id="statements"> Citi Bike extended it's service by adding 50 stations and 500 bikes in Jersey City, New Jersey. It's a beautiful
+            waterfront community, with historic brownstones, amazing restaurants and a thriving downtown. Finance companies like Bank of New York, 
+            Royal Bank of Canada, and Etrade are all located in downtown Jersey City. 
         </p>
 
-            <img id="graphs" src="img/avg_duration_weekday.png" width="700">
-
-        <p id="statements"> While subscribers use Citi bikes more often, the duration is significantly less
-            when compared to daily customers.  
+        <p id="statements">
+            The Citi Bike Annual Membership is currently $169 per year and riders can take as many rides as they want, 
+            for a max time of 45 minutes.  
         </p>
 
-        <p id="statements">Half of all trips lasted less than 5.7 minutes between 1/1/17 and 7/31/19.</p>
-
-        <img id="graphs" src="img/tripduration.png" width="700">
-
-        <p id="statements">For both subscribers and daily pass customers, usage increases substantially during the summer months</p>
-        
-        <img id="graphs" src="img/trip_month_subscribers.png" width="700">
-        
-        <img id="graphs" src="img/trip_month_customers.png" width="700">
-        
-        <p id="statements">Monthly trips for subscribers spike in the summer months but do not drastically dropoff
-            like Daily Customers
+        <p id="statements">
+            Most of the trips taken by Citi Bike riders in Jersey City are to the PATH train stations, which connects commuters to
+            Midtown and Lower Manhattan in roughly 20 minutes. 
         </p>
+
+        <img id="graphs" src="img/populartrips.JPG" width="800">
+
+        <p id="statements">The following top top stations in Jersey City account for 45% of all market share:</p>
+                <li id="statements">
+                    Grove Street PATH
+                </li>
+                <li id="statements">
+                    Hamilton Park
+                </li>
+                <li id="statements">
+                    Harborside
+                </li>
+                <li id="statements">
+                    Sip Avenue
+                </li>
+                <li id="statements">
+                    Newport PATH
+                </li>
+                <li id="statements">
+                    Marin Light Rail
+                </li>
+                <li id="statements">
+                    Newport Parkway
+                </li>
+                <li id="statements">
+                    Newark Avenue
+                </li>
+                <li id="statements">
+                    Morris Canal
+                </li>
+                <li id="statements">
+                    Paulus Hook
+                </li>
+        
+        <p>
+
+        </p>
+                <!-- <img id="graphs" src="img/topfivestations.JPG" width="800"> -->
+
+        <h4 id="statements">Who's our commuter? </h4>
+        <p id="statements"> 
+            For the month of July, 2019, most Citi Bike riders were male (60%), with an average age of 34. 
+
+            According to <a href="https://www.zillow.com/downtown-jersey-city-nj/home-values/">Zillow</a>, 
+            the median home value in Downtown Jersey City is $762,200 and the median rent is $2,650. The median household income is $100,336 a year.
+        </p>
+            <figure id="graphs">
+            <img src="img/citi_bike_commuter.jpg" width="500">
+            <a href="https://www.nj.com/hudson/2016/03/citi_bike_jersey_city_popular.html"><figcaption>NJ.com</figcaption></a>
+            </figure>
+
+        <h4 id="statements">Potential Market Opportunities </h4>
+        <p id="statements"> Considering the price tag of housing and the high median household income, 
+            we propose Citi Bike to expand it's offerings just like CapitalOne. 
+            That is, Citi could potentially offer banking and beverages at high volume stations. 
+            Overall, the top 10 stations account for 46% of all usage. 
+        </p>
+
+        <p id="statements">Citi can venture into adding atms and juice bars for daily commuters. It's not uncommon for individuals to spend
+            $10 - $15 for a healthy juice/shake and while the inventory is perishable, there are various techniques to extend shelf live. 
+        </p>
+
+
+
+        <img id="graphs" src="img/juicebar.jpg" width="700">
         
         <!-- D3 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
@@ -147,7 +198,7 @@
         <!--Footer-->
         <footer>
                 <div class="container"></div>
-                <div class="footer"> Citi Bike Analysis - New York, New York <i class="fas fa-biking"></i> 
+                <div class="footer"> Citi Bike Analysis - Jersey City, New Jersey <i class="fas fa-biking"></i> 
                     <a href="https://github.com/danicacodes/Citi_Bike_Project"><i class="fab fa-github"></i></a>
                 </div>
 

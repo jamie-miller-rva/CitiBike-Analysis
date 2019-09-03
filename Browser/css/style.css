@@ -71,3 +71,7 @@ h2 {
   background: #b9bec4;
   text-align: center;
 }
+
+blockquote {
+font-style: italic;
+}

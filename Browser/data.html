@@ -50,15 +50,11 @@
                                     
 
                                 <li class="nav-item">
+                                    <a class="nav-link" href="usage.html">Overall Usage</a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="riderprofile.html">Rider Profile</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="usage.html">Usage</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="weather.html">Weather</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -91,32 +87,50 @@
         <!---------------------------------------------------------------------------------------------------------------------->
         <!-- The div that holds our map -->
         
-        <h1 class="title">Citi Bike Expansion</h1>
+        <h1 class="title">Citi Bike JC Data</h1>
         <!-- Added little bicycle using fontawesome-->
-        <h2>january 1, 2017 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
+        <h2>july 1, 2019 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
 
-        <h4 id="statements"> Analysis of Citi Bike in Neighborhoods <i class="fas fa-city"></i> </h4>
+        <h4 id="statements"> Jersey City, New Jersey - City Bike Data <i class="fas fa-city"></i> </h4>
 
-        <p id="statements">For example, most expansion...
+        <p id="statements"> Citi Bike publishes monthly <a href="https://www.citibikenyc.com/system-data">downloadable CSV files</a> of trip data, which includes:
+                    <li id="statements">
+                    Trip Duration (seconds)    
+                    </li>
+                    <li id="statements">
+                        Start Time and Date
+                    </li>
+                    <li id="statements">
+                        Stop Time and Date
+                    </li>
+                    <li id="statements">
+                        Start Station Name
+                    </li>
+                    <li id="statements">
+                        End Station Name
+                    </li>
+                    <li id="statements">
+                        Station ID
+                    </li>
+                    <li id="statements">
+                        Station Lat/Long
+                    </li>
+                    <li id="statements">
+                        User Type (Customer = 24-hour pass or 3-day pass user; Subscriber = Annual Member)
+                    </li>
+                    <li id="statements">
+                        Gender (Zero=unknown; 1=male; 2=female)
+                    </li>
+                    <li id="statements">
+                        Year of Birth
+                    </li>
+
         </p>
 
-            <img id="graphs" src="img/avg_duration_weekday.png" width="700">
-
-        <p id="statements"> Expansion...  
+        <p id="statements"> There are currently 50,000 transactions per month for Jersey City, 
+            with 85% of all riders as subscribers for July 2019.
         </p>
 
-        <p id="statements">Expansion...</p>
-
-        <img id="graphs" src="img/tripduration.png" width="700">
-
-        <p id="statements">Expansion...</p>
-        
-        <img id="graphs" src="img/trip_month_subscribers.png" width="700">
-        
-        <img id="graphs" src="img/trip_month_customers.png" width="700">
-        
-        <p id="statements">Expansion...
-        </p>
         
         <!-- D3 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
@@ -144,8 +158,9 @@
         <!--Footer-->
         <footer>
                 <div class="container"></div>
-                <div class="footer"> Citi Bike Analysis - New York, New York <i class="fas fa-biking"></i> 
-                </div>
+                <div class="footer"> Citi Bike Analysis - Jersey City, New Jersey <i class="fas fa-biking"></i> 
+                    <a href="https://github.com/danicacodes/Citi_Bike_Project"><i class="fab fa-github"></i></a>
+                </div>            
                 <a style="color: white; font-size: 10px" href="https://spcs.richmond.edu/noncredit/programs/data-analytics/" data-toggle="popover" title="UR Data Analytics" data-content="University of Richmond Data Analytics Bootcamp">UR Data Analytics Bootcamp</a>
             </footer>
     </body>

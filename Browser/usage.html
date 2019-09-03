@@ -49,15 +49,11 @@
                             <ul class="navbar-nav ml-auto">
                                     
                                 <li class="nav-item">
+                                    <a class="nav-link" href="usage.html">Overall Usage</a>
+                                </li>
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="riderprofile.html">Rider Profile</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="usage.html">Usage</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="weather.html">Weather</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -89,25 +85,31 @@
         <!---------------------------------------------------------------------------------------------------------------------->
         <!-- The div that holds our map -->
         
-        <h1 class="title">Citi Bike Usage in New York City</h1>
+        <h1 class="title">Citi Bike Usage in Jersey City</h1>
         <!-- Added little bicycle using fontawesome-->
         <h2>january 1, 2017 thru july 31, 2019 <i class="fas fa-bicycle"></i> </h2> 
 
         <h4 id="statements">Daily usage varies by day of week, customer type, and time </h4>
 
-        <p id="statements">For example, most usage during the weekdays is by subscribers and 
-            there is a slight uptick on Saturdays and Sundays for Daily Customers.
+        <p id="statements">In both New York City and Jersey City, Citi Bikes are used most by subscribers on weekdays and weekends.
+            There is a slight uptick on Saturdays and Sundays for Daily Customers but Subscribers are still the most active users of Citi Bikes overall.
             More than likely, a subscriber's profile is a daily commuter with a bike ride of 10 minutes
             or less
         </p>
 
             <img id="graphs" src="img/avg_duration_weekday.png" width="700">
 
-        <p id="statements"> While subscribers use Citi bikes more often, the duration is significantly less
-            when compared to daily customers.  
+        <p id="statements"> We see this here  in the following graph, where the duration is significantly less 
+            for subscribers when compared to daily customers.  
         </p>
 
-        <p id="statements">Half of all trips lasted less than 5.7 minutes between 1/1/17 and 7/31/19.</p>
+        <p id="statements">Half of all trips lasted less than 5.7 minutes between 1/1/17 and 7/31/19. This is consistent
+            with Citi Bike's statement on their <a href="https://www.citibikenyc.com/jerseycity/">website</a> that states
+            "Citi Bike was designed for quick trips with convenience in mind, 
+            and it’s a fun and affordable way to get around town. Pick up a bike 
+            from any station in Jersey City, Manhattan, Brooklyn 
+            or Queens, and return it to any other station when you're done."
+        </p>
 
         <img id="graphs" src="img/tripduration.png" width="700">
 
@@ -115,11 +117,11 @@
         
         <img id="graphs" src="img/trip_month_subscribers.png" width="700">
         
-        <img id="graphs" src="img/trip_month_customers.png" width="700">
-        
         <p id="statements">Monthly trips for subscribers spike in the summer months but do not drastically dropoff
             like Daily Customers
         </p>
+
+        <img id="graphs" src="img/trip_month_customers.png" width="700">
         
         <!-- D3 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
@@ -147,7 +149,7 @@
         <!--Footer-->
         <footer>
                 <div class="container"></div>
-                <div class="footer"> Citi Bike Analysis - New York, New York <i class="fas fa-biking"></i> 
+                <div class="footer"> Citi Bike Analysis - Jersey City, New Jersey <i class="fas fa-biking"></i> 
                     <a href="https://github.com/danicacodes/Citi_Bike_Project"><i class="fab fa-github"></i></a>
                 </div>
 
@@ -156,4 +158,6 @@
                 <a style="color: white; font-size: 10px" href="https://spcs.richmond.edu/noncredit/programs/data-analytics/" data-toggle="popover" title="UR Data Analytics" data-content="University of Richmond Data Analytics Bootcamp">UR Data Analytics Bootcamp</a>
             </footer>
     </body>
+    <script src="js/usage.js"></script>
+
 </html>
