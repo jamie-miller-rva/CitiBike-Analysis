@@ -17,6 +17,6 @@ TEAM WORK BREAKDOWN STRUCTURE:
 •	Database Lead: Custis Baucom
 •	Flask APP Lead: Smitha Lal
 •	Browser Lead: Danica Rios
-•	Dashboard Lead: Nush Rama
+•	Dashboard Lead: Anusha Ramachandran
 •	Project Coordinator: Jamie Miller
 
