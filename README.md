@@ -2,7 +2,7 @@ SUBJECT: Project Proposal - CitiBike NYC Value-Added Analysis
 
 ISSUE: CitiBike NYC has contracted (notional) with the Data-Bootcamp Analysis Team to review CitiBike's existing bike station network designed to provide an affordable and economical transportation alternative for quick trips in and around the Jersey City area.  The team will examine CitiBike’s current “full-stack” product(s) which are geared toward the customer and served up to the public at https://www.citibikenyc.com/).  The analysis team will develop recommended additions to existing products that go beyond the customer’s needs and focus on providing data driven insight in support of CitiBike’s resourcing decisions related specifically to network capacity and enhancing bicycle availability.
 
-BACKGROUD: Citi Bike is the nation's largest bike share program, with 12,000 bikes and 750 stations across Manhattan, Brooklyn, Queens and Jersey City. The existing CitiBike NYC site offers a live dashboard of station capabilities, monthly reports, and quarterly summary statistics all geared toward their riders and the general public.  
+BACKGROUND: Citi Bike is the nation's largest bike share program, with 12,000 bikes and 750 stations across Manhattan, Brooklyn, Queens and Jersey City. The existing CitiBike NYC site offers a live dashboard of station capabilities, monthly reports, and quarterly summary statistics all geared toward their riders and the general public.  
 
 
 
